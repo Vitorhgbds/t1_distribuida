@@ -6,7 +6,7 @@ Para isso, pode-se passar essa informação como parâmetro durante a carga do
 programa, juntamente com outras informações de configuração, se necessário.
 
 ## Funcionalidades
-- [ ] Os peers devem se reegistrar no servidor para poderem realizar a troca de arquivos entre si.
+- [x] Os peers devem se reegistrar no servidor para poderem realizar a troca de arquivos entre si.
 
 - [ ] Durante o registro, cada peer informa seus recursos disponiveis (um diretorio com alguns arquivos, calcule o hash de 
 cada um). Para cada arquivo, o peer fornece ao servidor o nome do arquivo e sua hash, calculada sobre o conteúdo.
