@@ -32,8 +32,8 @@ peers que poderá ser feita utilizando sockets, RPC ou RMI.
 É sugerido a utilização de uma rede com topologia definida, e que sejam realizados testes
 com um numero suficiente de máquinas:
 
-- [ ] 3 VMSs
-- [ ] Pelo menos 6 teminais
+- [x] 3 VMSs
+- [x] Pelo menos 6 teminais
 
 A entrega deve ser um arquivo .tar.gz contendo o código fonte da implementação e uma lista
 de nomes completos dos integrantes do grupo.
