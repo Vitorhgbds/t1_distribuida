@@ -85,7 +85,7 @@ public class Client extends Thread{
 				
                 // opening the socket will save the file
                 // socket port will be +2 because the socketToRequest have already located this port+1
-                Socket socket = new Socket(InetAddress.getByName("localhost"), portToRequest + 1);
+                Socket socket = new Socket(ipToRequest, portToRequest + 1);
                 System.out.println("abrindo o socket para estabelecer conexão com o ssocket usando a porta: " + (portToRequest + 1));
                 FileOutputStream fos = new FileOutputStream(this.dirPath + "/_" + this.downloadNumber + "_.txt");
                 this.downloadNumber++;
